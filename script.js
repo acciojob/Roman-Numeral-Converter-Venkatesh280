@@ -14,7 +14,7 @@ function convertToRoman(num) {
   11:['IV',4],
   12:['I', 1]
     };
-	let result=' ';
+	let result='';
 
 	for(let i=0;i<13;i++){
 		while(num>=obj[i][1]){
@@ -29,7 +29,7 @@ function convertToRoman(num) {
 
 }
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
-//alert(convertToRoman(3));
+console.log(convertToRoman(3));
 
 
 // do not edit below this line
